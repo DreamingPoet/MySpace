@@ -73,14 +73,14 @@ void ABubbleSort::Tick(float DeltaTime)
 				else
 				{
 					j = 0;
-					j--; //ºÜ¹Ø¼üµÄÒ»²½
+					j--; //å¾ˆå…³é”®çš„ä¸€æ­¥
 					++i;
 				}
 				j++;
 			}
 			else if(i >= a.Num())
 			{
-				BigerNumIndicator->SetActorLocation(SortBall[0]->GetActorLocation());//´ýÍêÉÆ...
+				BigerNumIndicator->SetActorLocation(SortBall[0]->GetActorLocation());//å¾…å®Œå–„...
 			}
 
 

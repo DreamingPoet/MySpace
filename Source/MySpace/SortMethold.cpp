@@ -149,7 +149,7 @@ void ASortMethold::ReSet()
 }
 
 
-void ASortMethold::MySwap(int& a, int& b) //Ä£°åÌØ»¯ ÕûÊıÎ»ÔËËã£¬Âß¼­ÔËËã
+void ASortMethold::MySwap(int& a, int& b) //æ¨¡æ¿ç‰¹åŒ– æ•´æ•°ä½è¿ç®—ï¼Œé€»è¾‘è¿ç®—
 {
 	if (a == b)
 	{
@@ -158,7 +158,7 @@ void ASortMethold::MySwap(int& a, int& b) //Ä£°åÌØ»¯ ÕûÊıÎ»ÔËËã£¬Âß¼­ÔËËã
 	a = a ^ b;
 	b = a ^ b;
 	a = a ^ b;
-}//Ç°ÌáÊÇ a != b 
+}//å‰ææ˜¯ a != b 
 
 
 

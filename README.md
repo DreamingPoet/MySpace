@@ -9,5 +9,19 @@ VR的本质在我看来就是对现实世界的模拟和重现。从一定程度
 点击可以播放演示视频：
 <a href="https://www.bilibili.com/video/av57123286"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" alt="bilibili" border="5" /></a>
 
+## 使用的软件
+
+构思：Office Visio
+图片处理：Adobe Photoshop CC 2018
+建模：SketchUp 2017
+Code：Notepad++ & Visual studio 2017
+
+
+
+
+
+
+
+
 
 

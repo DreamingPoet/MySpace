@@ -11,15 +11,15 @@ VR的本质在我看来就是对现实世界的模拟和重现。从一定程度
 
 ## Software and Device
 
-构思：Office Visio
-图片处理：Adobe Photoshop CC 2018
-modeling：SketchUp 2017
-Code：Notepad++ & Visual studio 2017
-Version Control: GitHub
-Engine: Unreal 4.21
-Audio: GoldWave
-Video: Adobe AfterEffect CC 2017
-Test Device: HTC vive focus plus
+* 构思：Office Visio
+* 图片处理：Adobe Photoshop CC 2018
+* Modeling：SketchUp 2017
+* Code：Notepad++ & Visual studio 2017
+* Version Control: GitHub
+* Engine: Unreal 4.21
+* Audio: GoldWave
+* Video: Adobe AfterEffect CC 2017
+* Test Device: HTC vive focus plus
 
 
 

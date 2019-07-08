@@ -7,14 +7,22 @@ VR的本质在我看来就是对现实世界的模拟和重现。从一定程度
 以上是我个人的一些小小的看法，那么这个项目是结合这些想法的一个demo，我用模拟的想法来，模拟计算机基本逻辑元件，连接件，操作件，然后通过这些基本元件的组合可以模拟真正的逻辑计算。
 
 点击可以播放演示视频：
-<a href="https://www.bilibili.com/video/av57123286"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" alt="bilibili" border="5" /></a>
+<a href="https://www.bilibili.com/video/av57123286"><img src="https://github.com/DreamingPoet/MySpace/blob/master/README_img/looks_11.JPG" alt="bilibili" border="5" /></a>
 
-## 使用的软件
+## Software and Device
 
 构思：Office Visio
 图片处理：Adobe Photoshop CC 2018
-建模：SketchUp 2017
+modeling：SketchUp 2017
 Code：Notepad++ & Visual studio 2017
+Version Control: GitHub
+Engine: Unreal 4.21
+Audio: GoldWave
+Video: Adobe AfterEffect CC 2017
+Test Device: HTC vive focus plus
+
+
+
 
 
 

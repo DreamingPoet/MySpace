@@ -55,6 +55,74 @@ VR的本质在我看来就是对现实世界的模拟和重现。从一定程度
 首先游戏开始后，排序管理Actor 只有一个Tick循环可以用，不能进行 for 循环嵌套。而且Tick 作为函数执行的时候，是不能按我们想象的方式执行Sleep（）函数的，而是先把所有的 Sleep（）函数都执行完了之后（一直处于一个等待状态），才执行其他的语句的。
 
 * 只用一个Tick()循环来替代一个需要多个 for 嵌套的循环，将会是很大的不同。
+~~~
+#include "BubbleSort.h"
+
+void ABubbleSort::BeginPlay()
+{
+	Super::BeginPlay();
+	ElaspedSecond = 0;
+	i = 0;//初始化外循环的i
+	j = 0;//初始内外循环的j
+	bCompare = 1;//三个状态循环，1：比较 2：交换 3：等待1秒
+}
+
+// Called every frame
+void ABubbleSort::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	ElaspedSecond += DeltaTime;//累计每帧的时间
+	if (ElaspedSecond >=1)//如果超过1秒则开始执行
+	{
+		if (bStart)//由开关控制
+		{
+		if (bCompare == 1) //三个状态循环，1：比较
+		{
+			if (j < a.Num() - 1 - i)
+			{
+				MoveToCompareZone(j + 1, j, SortBall); //移动到比较区
+			}	
+			bCompare = 2;	
+		}
+		else if(bCompare == 3) //三个状态循环，2：交换
+		{
+			if (i < a.Num())
+			{
+				if (j < a.Num() - 1 - i)
+				{
+					if (a[j] > a[j + 1])
+					{
+						MySwap(a[j + 1], a[j]); //数值交换
+						Swap(j+1, j, SortBall); //移动代表数字的球
+					}
+					else
+					{
+						MoveBack(j + 1, j, SortBall);//返回原位置
+					}
+				}
+				else
+				{
+					j = 0;
+					j--; //很关键的一步，因为此处内循环结束，设置j = 0了，但是循环外有一个 ++j ;
+					++i;
+				}
+				++j;
+			}
+			else if(i >= a.Num())
+			{
+				BigerNumIndicator->SetActorLocation(SortBall[0]->GetActorLocation());//排序结束后大数标识移动到最大处，待完善...
+			}
+			bCompare = 1;
+		}
+		else if (bCompare == 2)  //三个状态循环，3：等待1秒
+		{
+			bCompare = 3;
+		}
+		}
+		ElaspedSecond--;//超过1秒后执行，执行完减去1秒，重新等待下一秒执行。
+	}
+}
+~~~
 
 * 利用这些逻辑元件，是可以组建出，加法器，减法器，乘法器，除法器，存储器，编码器，解码器等等计算机组件的。有无限的可能性。
 

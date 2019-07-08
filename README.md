@@ -25,8 +25,7 @@ VR的本质在我看来就是对现实世界的模拟和重现。从一定程度
 
 ## 部分构思图片
 
-![image](https://github.com/DreamingPoet/MySpace/blob/master/README_img/visio_0004_%207.jpg) ![image](https://github.com/DreamingPoet/MySpace/blob/master/README_img/visio_0002_%209.jpg)
- ![image](https://github.com/DreamingPoet/MySpace/blob/master/README_img/visio_0001_%2010.jpg) ![image](https://github.com/DreamingPoet/MySpace/blob/master/README_img/visio_0000_%2011.jpg)
+<img src="https://github.com/DreamingPoet/MySpace/blob/master/README_img/visio_0004_%207.jpg" width="300" style="display:inlne;"/><img src="https://github.com/DreamingPoet/MySpace/blob/master/README_img/visio_0002_%209.jpg" width="300" style="display:inlne;"/><img src="https://github.com/DreamingPoet/MySpace/blob/master/README_img/visio_0001_%2010.jpg" width="300" style="display:inlne;"/><img src="https://github.com/DreamingPoet/MySpace/blob/master/README_img/visio_0000_%2011.jpg" width="300" style="display:inlne;" />
 
 
 

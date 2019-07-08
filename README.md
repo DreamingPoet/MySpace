@@ -6,6 +6,8 @@ VR的本质在我看来就是对现实世界的模拟和重现。从一定程度
 
 以上是我个人的一些小小的看法，那么这个项目是结合这些想法的一个demo，我用模拟的想法来，模拟计算机基本逻辑元件，连接件，操作件，然后通过这些基本元件的组合可以模拟真正的逻辑计算。
 
+**这个项目的一个特点是，不需要空间动作和位置捕捉，只需要坐在椅子上就可以完整体验VR项目，在空间内随意走动，并且几乎不会产生3D眩晕症。**
+
 点击可以播放演示视频：
 <a href="https://www.bilibili.com/video/av57123286"><img src="https://github.com/DreamingPoet/MySpace/blob/master/README_img/looks_11.JPG" alt="bilibili" border="5" /></a>
 
@@ -21,7 +23,10 @@ VR的本质在我看来就是对现实世界的模拟和重现。从一定程度
 * Video: Adobe AfterEffect CC 2017
 * Test Device: HTC vive focus plus
 
+## 部分构思图片
 
+![image](https://github.com/DreamingPoet/MySpace/blob/master/README_img/visio_0004_%207.jpg)
+![image](README_img/visio_0004_ 7.jpg)
 
 
 

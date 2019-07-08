@@ -63,7 +63,7 @@ public:
 
 
 	UFUNCTION()
-		void MySwap(int& a, int& b);//妯℃澘鐗瑰寲 鏁存暟浣嶈繍绠楋紝閫昏緫杩愮畻
+		void MySwap(int& a, int& b);//模板特化 整数位运算，逻辑运算
 
 protected:
 
